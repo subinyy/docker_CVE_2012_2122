@@ -32,4 +32,4 @@ done
 ## 실행 결과
 ![cve 환경 구축](https://github.com/user-attachments/assets/cc1e767c-e72d-4d28-a655-38e3afbcba99)
 
-
+운이 좋게 Try1에서 root 계정 로그인에 성공하였다.
