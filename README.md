@@ -72,3 +72,8 @@ done
 ![cve 환경 구축](https://github.com/user-attachments/assets/cc1e767c-e72d-4d28-a655-38e3afbcba99)
 
 운이 좋게 Try1에서 root 계정 로그인에 성공하였습니다.
+
+## commit 내역
+![cve_commit](https://github.com/user-attachments/assets/bfe3b8fe-3194-45dd-8869-1f0ff2d0bc05)
+
+URL: https://github.com/subinyy/kr-vulhub
