@@ -21,6 +21,45 @@
 - 'docker-compose.yaml'을 통해 컨테이너 실행
 - 컨테이너 내부에서 bash 반복문을 통해 인증 우회 취약점 재현
 
+1. 실습 파일 생성
+```bash
+cd mysql-cve-2012-2122
+```
+- 도커 파일 생성
+```bash
+vi Dockerfile
+```
+내용 입력 후 저장
+
+- entrypoint.sh 생성
+```bash
+vi entrypoint.sh
+```
+내용 입력 후 저장
+권한 부여
+
+- docker-compose.yaml 생성
+```bash
+vi docker-compose.yaml
+```
+
+2. 이미지 빌드, 컨테이너 실행
+```bash
+docker compose build
+docker compose up -d
+```
+
+3. 컨테이너 안으로 들어가서 실행하기
+```bash
+docker exec -it mysql-cve bash
+```
+이후 아래 코드 실행
+
+4. 컨테이너 종료
+```bash
+docker compose down
+```
+
 ## 코드 
 ```bash
 for i in {1..1000}; do
