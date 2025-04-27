@@ -30,5 +30,6 @@ done
 ```
 
 ## 실행 결과
-![결과 화면]("C:\Users\60dbt\OneDrive\바탕 화면\whs3\cve 환경 구축.png")
+![cve 환경 구축](https://github.com/user-attachments/assets/cc1e767c-e72d-4d28-a655-38e3afbcba99)
+
 
